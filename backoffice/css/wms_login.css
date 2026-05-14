@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.login_icon{font-size:300%;}
+
+.bg_backoffice {
+  background: linear-gradient(180.01deg, #00264E 5.89%, #40976D 99.87%, #004084 125.56%) !important;
+}
+
+.boxlogin {
+  background: rgba(26, 27, 26, 0.51);
+  padding: 20px;
+  color: #fff;
+}
+
+.boxlogin_f {
+  background: rgba(26, 27, 26, 0.51);
+  padding: 20px 0 20px 0;
+  color: #fff;
+}
+
+.fname-size {
+  font-size: 120%;
+  line-height: 40px;
+}
+
+.flogo-img {
+  border-radius: 50%;
+}
+
+.fblog {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fblog:hover {
+  background: rgba(26, 27, 26, 0.51);
+}
+
+.fblog_inner {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.fwhite {
+  color: #000;
+}

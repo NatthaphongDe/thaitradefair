@@ -1,0 +1,46 @@
+
+RewriteEngine On
+
+Header always append X-Frame-Options SAMEORIGIN
+RewriteRule ^pre-registion/?$ /pre-registration/ [R=301,L]
+
+RewriteRule ^fair/(.*)/(.*)/ fair.php?id=$1&word=$2
+RewriteRule ^fair-content/(.*)/(.*)/(.*)/(.*)/ fair-content.php?id=$1&word=$2&fct_id=$3&wordmenu=$4
+RewriteRule ^fair-detail/(.*)/(.*)/(.*)/(.*)/ fair-detail.php?id=$1&word=$2&fca_id=$3&wordmenu=$4
+RewriteRule ^fair-gallery/(.*)/(.*)/(.*)/(.*)/ fair-gallery.php?id=$1&word=$2&fcg_id=$3&wordmenu=$4
+RewriteRule ^fair-exhibitor/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/ fair-exhibitor.php?id=$1&word=$2&fct_id=$3&wordmenu=$4&exl_id=$5&exlname=$6
+RewriteRule ^fair-calendar/ fair-calendar.php
+RewriteRule ^pre-registration/ pre-registion.php
+RewriteRule ^official-hotels/ official-hotels.php
+RewriteRule ^what-industry/(.*)/(.*)/ what-industry.php?id=$1&word=$2
+RewriteRule ^news-detail/(.*)/(.*)/ news-detail.php?id=$1&word=$2
+RewriteRule ^all-news/ all-news.php
+RewriteRule ^all-news-group/(.*)/(.*)/ all-news-group.php?id=$1&word=$2
+RewriteRule ^search-news/(.*)/(.*)/ search-news.php?id=$1&word=$2
+RewriteRule ^all-gallery/ all-gallery.php
+RewriteRule ^all-gallery-group/(.*)/(.*)/ all-gallery-group.php?id=$1&word=$2
+RewriteRule ^contact-us/ web-contactus.php
+RewriteRule ^exhibitor-profile/(.*)/(.*)/ exhibitor-profile.php?exl_id=$1&exlname=$2
+RewriteRule ^exhibitor-list-directory/ exhibitor-list-directory.php
+RewriteRule ^exporters-list-directory/ exporters-list-directory.php
+RewriteRule ^exporters-profile/(.*)/(.*)/ exporters-profile.php?exp_id=$1&exlname=$2
+RewriteRule ^my-profile/ my-profile.php
+RewriteRule ^logout/ logout.php
+
+
+RewriteRule ^api/getFairCategory api/getFairCategory.php
+RewriteRule ^api/getTagFair api/getTagFair.php
+RewriteRule ^api/getTagMaster api/getTagMaster.php
+RewriteRule ^api/getFairContactForm api/getFairContactForm.php
+RewriteRule ^api/getFairGallery api/getFairGallery.php
+RewriteRule ^api/getFairContent api/getFairContent.php
+RewriteRule ^api/getFairExhibitor api/getFairExhibitor.php
+RewriteRule ^api/getFairLists api/getFairLists.php
+RewriteRule ^api/add_exportor api/add_exportor.php
+RewriteRule ^api/getFairListByFairGroup api/getFairGroup.php
+Options -Indexes
+
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>

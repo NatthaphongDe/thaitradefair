@@ -1,0 +1,209 @@
+
+.navigator-text {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111;
+}
+
+.navigator-text .active {
+    font-weight: bold;
+}
+
+
+h1.title {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+}
+
+h2.title {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* text-align: justify; */
+    color: #111;
+}
+
+#gallery .gallery-list>.col {
+    min-height: 250px;
+    cursor: pointer;
+}
+
+
+#gallery .gallery-list .event-area img {
+    width: 40px;
+    height: 40px;
+
+}
+
+#gallery .gallery-list .event-area .event-name {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+#gallery .gallery-list .lastest-album {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+}
+
+#gallery .gallery-list .see-all-fair-gallery {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+
+#gallery .gallery-list .bg-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.see-all-fair-gallery {
+    text-decoration: underline !important;
+}
+
+.view-more-area .bi {
+    color: #111;
+}
+
+.view-more {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111;
+}
+
+
+.continer-content-list .card .card-image {
+    height: 217px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.continer-content-list .card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.continer-content-list .card .card-title {
+    height: 55px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.continer-content-list .card .card-body h5 {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+}
+
+.bg-yt-play {
+    background: url('<?=ROOTPATHDOMAIN?>assets/images/icon-youtube-play.png') no-repeat center center;
+    background-size: 60px auto;
+    -moz-background-size: 60px auto;
+    -o-background-size: 60px auto;
+    background-size: 60px auto;
+}
+
+.wf-container {
+    margin: 0 auto;
+}
+
+.wf-container:before,
+.wf-container:after {
+    content: '';
+    display: table;
+}
+
+.wf-container:after {
+    clear: both;
+}
+
+.wf-box {
+    margin: 0px 5px 10px 5px;
+}
+
+.wf-box img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.wf-box .content {
+    border: 1px solid #ccc;
+    border-top-width: 0;
+    padding: 5px 8px;
+}
+
+.wf-column {
+    float: left;
+}
+
+@media screen and (min-width: 576px) {
+    .wf-container {
+        width: 576px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wf-container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wf-container {
+        width: 992px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wf-container {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .wf-container {
+        width: 1400px;
+    }
+}

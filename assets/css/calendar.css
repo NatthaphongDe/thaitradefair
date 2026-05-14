@@ -1,0 +1,122 @@
+._homebanner_bgheight {
+  height: 380px;
+  border-radius:30px !important;
+}
+
+#fair-calendar-title .title {
+  line-height: 50% !important;
+}
+
+
+#pre-registion-title .title {
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 50% !important;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.search-area .dropdown-toggle {
+    padding-top: 4px !important;
+    padding-bottom: 2px !important;
+    height: auto;
+    border-radius: 7px;
+    background-color: #fba91e !important;
+    border: none !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    /* padding: 0.3rem 1rem 0.3rem 1rem; */
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+    outline: none !important;
+
+}
+
+
+@media (max-width: 1399px) {
+  ._homebanner_bgheight {
+    height: 280px;
+  }
+}
+
+@media (max-width: 1199px) {
+  ._homebanner_bgheight {
+    height: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .search-area {
+      margin-top: 0 !important;
+  }
+
+
+  ._homebanner_bgheight {
+    height: 210px;
+    border-radius: 20px !important;
+  }
+
+}
+
+@media (max-width: 767px) {
+  ._homebanner_bgheight {
+    height: 180px;
+    border-radius: 20px !important;
+  }
+
+}
+
+@media (max-width: 575px) {
+  ._homebanner_bgheight {
+    height: 120px;
+    border-radius: 15px !important;
+  }
+
+  #fair-calendar-title {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  #pre-registion-title {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 8px;
+  } */
+
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 102px !important;
+  }
+
+  .search-area {
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 375px) {
+
+  ._homebanner_bgheight {
+    height: 120px;
+    border-radius: 15px !important;
+  }
+
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 97px !important;
+  }
+
+}

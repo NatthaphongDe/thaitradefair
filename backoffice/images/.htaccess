@@ -1,0 +1,6 @@
+Options -Indexes
+
+<FilesMatch "(?i).*(.ph|.sh|.pj|.env|.zip|.log|.in|access_log|.module|.ctp|.hph|.alfa|.env|.conf|.py|.hta|.as|.xx|.csh|.pl|.cgi|.py|.pgi|.conf|.jsp|.action).*">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
